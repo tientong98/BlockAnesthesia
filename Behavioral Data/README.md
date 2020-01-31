@@ -19,7 +19,7 @@ The pictures and task descriptions below are from [Jager et al., 2010](https://w
 
 STERN assesses the WM system before and after practice (automatization). Subjects were instructed to memorize a set of five letters (memory set) and subsequently to respond to single letters (probes) by pressing a button if the probe was in the memory set (target). A novel (NT) and a practiced task (PT) were administered. In PT, a fixed memory set was used repeatedly, on which subjects were trained before scanning to induce automatization. In the NT, the composition of the memory set was changed after every epoch. An additional reaction time control task (CT) was in- cluded during which subjects made a button press when the symbol “< >” appeared. In the scanner, each task (CT, PT, and NT) was presented in six epochs (duration, xx seconds) of 10 stimuli each, as well as six rest periods of equal epoch duration.
 
-# Hippocampus task task
+# Hippocampus task
 
 <p align="center">
   <img src="https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/hippo.png">
