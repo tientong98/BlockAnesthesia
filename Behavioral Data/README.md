@@ -1,7 +1,7 @@
 This folder contains code to
 
-1. Get the timing of the events for fMRI analysis `eventtiming.R`
-2. Analyze the behavioral performance `behav.R`
+1. Get the timing of the events for fMRI analysis [`eventtiming.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/eventtiming.R)
+2. Analyze the behavioral performance [`behav.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/behav.R)
 
 Two tasks:
 
