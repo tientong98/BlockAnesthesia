@@ -21,7 +21,7 @@ if you go the remove TRs route, just mark in the task json files with the key Nu
 **5.** The [start_to_finish.ipynb](https://github.com/tientong98/BlockAnesthesia/blob/master/Imaging%20Data/start_to_finish.ipynb) has the step-by-step fMRI pipeline:
   * Add Slice timing information and exclude dummy TRs 
   * Run fMRIPrep
-    * After fMRIPrep, run [`05runafterfMRIPrep.sh`\(https://github.com/tientong98/BlockAnesthesia/blob/master/Imaging%20Data/05runafterfMRIPrep.sh). This script involves first running [`fmri01_aromaunsmooth_WMCSFts.sh`](https://github.com/tientong98/BlockAnesthesia/blob/master/Imaging%20Data/fmri01_aromaunsmooth_WMCSFts.sh) (recalculate average WM and CSF signals from the motion corrected, slice timing corrected, aroma denoised but unsmoothed BOLD), then running [`fmri02_makeconfound.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Imaging%20Data/fmri02_makeconfound.R) (making a confound txt file for Feat).
+    * After fMRIPrep, run [`05runafterfMRIPrep.sh`](https://github.com/tientong98/BlockAnesthesia/blob/master/Imaging%20Data/05runafterfMRIPrep.sh). This script involves first running [`fmri01_aromaunsmooth_WMCSFts.sh`](https://github.com/tientong98/BlockAnesthesia/blob/master/Imaging%20Data/fmri01_aromaunsmooth_WMCSFts.sh) (recalculate average WM and CSF signals from the motion corrected, slice timing corrected, aroma denoised but unsmoothed BOLD), then running [`fmri02_makeconfound.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Imaging%20Data/fmri02_makeconfound.R) (making a confound txt file for Feat).
   * Run first and second level analysis with FEAT
 
 **6.** Use nilearn to plot the stat maps to send to collaborators using `statmap_nilearn.ipynb`
