@@ -1,7 +1,25 @@
 This folder contains code to
 
 1. Get the timing of the events for fMRI analysis [`eventtiming.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/eventtiming.R)
+    * 21/02/20: Turned those into functions: [`hippotiming_func.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/hippotiming_func.R) and [`sterntiming_func.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/sterntiming_func.R)
+    * Run in R:
+  
+  ```
+  source("/Path/to/file/hippotiming_func.R")
+  source("/Path/to/file/sterntiming_func.R")
+  hippotiming_func("subject_id")
+  sterntiming_func("subject_id")
+  ```
 2. Analyze the behavioral performance [`behav.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/behav.R)
+    * 21/02/20: Turned those into functions: [`hippo_func.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/hippo_func.R) and [`stern_func.R`](https://github.com/tientong98/BlockAnesthesia/blob/master/Behavioral%20Data/stern_func.R)
+    * Run in R:
+  
+  ```
+  source("/Path/to/file/hippo_func.R")
+  source("/Path/to/file/stern_func.R")
+  hippo_func("subject_id")
+  stern_func("subject_id") 
+  ```
 
 Two tasks:
 
